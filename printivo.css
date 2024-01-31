@@ -1,3 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary-text-color {
+    color: #384A62;
+}
+
+.width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #F7F6F4;
+    width: 99%;
+    margin: 0 auto;
+}
+
 .hero-text {
     font-size: 58px;
     font-family: "dm serif display", serif;
@@ -46,11 +67,7 @@
     transition: all .2s;
 }
 
-/* .button-icon:hover {
-    transform: translateX(3px);
-} */
-
-.hover-button:hover{
+.button-icon:hover{
     transform: translateX(3px);
 }
 
@@ -58,4 +75,47 @@
     font-size: 12px;
     font-weight: 700;
     color: #384A62;
+}
+
+.customers {
+    font-family: "dm serif display",serif;
+}
+
+.customer-title {
+    letter-spacing: 0.7px;
+}
+
+.customer-text-small {
+    font-size: 24px;
+    padding-right: 600px;
+    letter-spacing: 0.5px;    
+}
+
+.testimonials {
+    background-color: #EDF6FD;
+}
+
+.testimonial-heading {
+    font-family: "dm serif display",serif;
+}
+
+.testimony {
+    width: 32%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .1);
+}
+
+.twitter-icon {
+    border: 1px solid rgba(0,0,0, .1);
+    border-radius: 50px;
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.testifier-name a:link {
+    text-decoration: none;
+}
+
+.testifier-text a:link {
+    text-decoration: none;
 }
