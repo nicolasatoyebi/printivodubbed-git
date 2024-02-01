@@ -263,6 +263,12 @@ main {
         width: 100%;
     }
 
+    .hero-input::placeholder {
+        color: #B0B8C2 !important;
+        font-size: 12px;
+        padding: 50px 10px 50px;
+    }
+
     .products {
         flex-direction: column;
     }
