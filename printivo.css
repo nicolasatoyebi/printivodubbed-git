@@ -57,8 +57,16 @@ main {
     border-bottom: 2px solid #000;
 }
 
-.cards {
+.card {
     border-radius: none !important;
+}
+
+.card-image img{
+    overflow: hidden !important;
+}
+
+.card-image:hover {
+    transform: scale(1.2);
 }
 
 .button-icon {
@@ -103,6 +111,7 @@ main {
     width: 32%;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .1);
+    font-family: "SF Pro", sans-serif;
 }
 
 .twitter-icon {
@@ -116,6 +125,78 @@ main {
     text-decoration: none;
 }
 
+.testifier-text {
+    color: #384A62;
+}
+
 .testifier-text a:link {
     text-decoration: none;
+}
+
+.services-section-heading {
+    font-family: "dm serif display",serif;
+}
+
+.service {
+    width: 32%;
+}
+
+.service-heading {
+    font-size: 16px;
+    font-family: "SF Pro", sans-serif;
+}
+
+.services-text {
+    color: #384A62;
+}
+
+.pr-section {
+    background-color: #F7F6F4;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.pr-heading-text {
+    font-family: "dm serif display",serif;
+}
+
+.pr-rep {
+    gap: 100px;
+}
+
+.pr-cta:link {
+    color: #384A62;
+}
+
+.footer-section {
+    background-color: #384A62;
+    font-family: "SF Pro", sans-serif;
+}
+
+.footer {
+    gap: 150px;
+}
+
+.footer-heading {
+    color: #ECE8D9;
+}
+
+.footer-items li{
+    list-style: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.secondary-footer {
+    background-color: #F7F6F4;
+}
+
+
+@media screen and (max-width:800px) {
+    .nav{
+        display: none;
+    }
 }
