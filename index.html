@@ -18,56 +18,59 @@
     <title>Printivo</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                <div class="">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Cost Calculator</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Discover Stores</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Track Orders</a>
-                        </li>
-                    </ul>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">          
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <div class="nav-left">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Cost Calculator</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Discover Stores</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Track Orders</a>
+                            </li>
+                        </ul>
+                    </div>
+                      
+                    <div class="nav-right">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Need Help? Call:<span class="link-primary">+23407080646763</span>
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="images/whatsapp-img.svg" alt="whatsapp-img" class="">
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button type="button" class="btn d-flex align-items-center border-radius-lg fw-semibold"
+                                        style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .8rem; --bs-btn-font-size: 1rem; border-radius: 20px; border: 1px solid rgba(0,0,0, .3);">
+                                        <img src="images/nigeria.png" alt="" style="height: 15px;" class="me-2">
+                                        <span class="link-secondary" style="font-size: 14px;">Nigeria</span>
+                                    </button>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                
                 </div>
-                  
-                <div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            Need Help? Call:<span class="link-primary">+23407080646763</span>
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="images/whatsapp-img.svg" alt="whatsapp-img" class="">
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <button type="button" class="btn d-flex align-items-center border-radius-lg fw-semibold"
-                                    style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .8rem; --bs-btn-font-size: 1rem; border-radius: 20px; border: 1px solid rgba(0,0,0, .3);">
-                                    <img src="images/nigeria.png" alt="" style="height: 15px;" class="me-2">
-                                    <span class="link-secondary" style="font-size: 14px;">Nigeria</span>
-                                </button>
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-            
             </div>
-        </div>
-      </nav>
+          </nav>
+    </div>
+    
 
     <main>    
-        <div style="width: 95%; margin: 0 auto;">
+        <div class="navigation-section" style="width: 95%; margin: 0 auto;">
             <section class="p-3 d-flex align-items-center justify-content-between fw-semibold"  style="font-size: 14px;">
                 <ul class="nav">
                     <li class="nav-item">
@@ -107,72 +110,126 @@
             </div>
             
         </div>
-        <div style="background-color: #ECE8D9;">
-            <div style="width: 95%; margin: 0 auto;">
-                <section class="p-4 ms-2 d-flex align-items-center  justify-content-between fw-semibold"  style="font-size: 14px;">
-                    <a class="navbar-brand" href="#">
-                    <img src="images/logo.svg" alt="printivo logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+        <div class="hero" style="background-color: #ECE8D9;">
+            <div class="secondary-nav">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.svg" alt="printivo logo">
+                            </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">All Products</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Become a Reseller</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Merch Store</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Marketplace</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Sign in</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Create Account</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" style="height: 30px; color: #4B6382;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                  </svg>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
             
-                    <ul class="nav" style="font-size: 17px;">
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link active link-secondary" aria-current="page" href="#" style="color: #4B6382;">
-                            All Products
-                        </a>                           
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #4B6382;">
-                            Become a Reseller
+            <div class="" style="width: 95%; margin: 0 auto;">
+                <div class="secondary-navigation">
+                    <section class="p-4 ms-2 d-flex align-items-center  justify-content-between fw-semibold"  style="font-size: 14px;">
+                        <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" alt="printivo logo">
                         </a>
-                    </li>
+                
+                        <ul class="nav" style="font-size: 17px;">
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link link-secondary" aria-current="page" href="#" style="color: #4B6382;">
+                                All Products
+                            </a>                           
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #4B6382;">
+                                Become a Reseller
+                            </a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #4B6382;">
+                                Merch Store
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-4" href="#" style="color: #4B6382;">
+                                Marketplace
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #D77F81;">
+                                Sign in
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #4B6382;">
+                                Create Account
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" style="height: 30px; color: #4B6382;">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                  </svg>
+                                  
+                            </a>
+                        </li>                       
+                    </ul>
+                </section>
+                </div>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #4B6382;">
-                            Merch Store
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-4" href="#" style="color: #4B6382;">
-                            Marketplace
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #D77F81;">
-                            Sign in
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #4B6382;">
-                            Create Account
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" style="height: 30px; color: #4B6382;">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                              </svg>
-                              
-                        </a>
-                    </li>                       
-                </ul>
-            </section>
+                <div class="hero-page">
+                    <span class="hero-text">Quality Prints</span> <br>
+                    <span class="d-block mb-4 mt-1 fs-3 fw-semibold" style="color: #708095;">Shipped to your doorstep</span> <br>
+                    <label for="text" class="fs-6 fw-bold mb-1" style="color: #384A62;">What would you like to print today?</label>
+                    <div class="d-flex">
+                        <input class="form-control form-control hero-input" type="text" placeholder="Search for Business cards, T-shirts, Mugs, etc" aria-label=".form-control example" style="height: 80px;">
+                        <span class="input-icon"><i class="fa-solid fa-magnifying-glass icon-1"></i></span>
+                    </div>
+                    
+                </div>
+                
 
-            <div id="carouselExampleSlidesOnly" class="carousel slide p-4 mt-4" data-bs-ride="carousel">
+            <div id="carouselExampleSlidesOnly" class="hero-slide carousel slide p-4 mt-4" data-bs-ride="carousel">
                 <div class="carousel-inner">
 
-                  <div class="carousel-item slick-slide active">
+                  <div class="carousel-item slick-slide active hero-slide-1">
                     <div class="d-flex justify-content-between">
                         <div style="width: 50%;">
-                            <span class="hero-text .text-primary-emphasis">Quality Prints</span> <br>
+                            <span class="hero-text">Quality Prints</span> <br>
                             <span class="d-block mb-4 mt-1 fs-3 fw-semibold" style="color: #708095;">Shipped to your doorstep</span> <br>
                             <label for="text" class="fs-6 fw-bold mb-1" style="color: #384A62;">What would you like to print today?</label>
                             <div class="d-flex">
                                 <input class="form-control form-control hero-input" type="text" placeholder="Search for Business cards, T-shirts, Mugs, etc" aria-label=".form-control example" style="width: 80%; height: 80px;">
-                                <span><i class="fa-solid fa-magnifying-glass icon-1"></i></span>
+                                <span class="input-icon"><i class="fa-solid fa-magnifying-glass icon-1"></i></span>
                             </div>
                             
                         </div>
@@ -185,7 +242,7 @@
                     
                   </div>
 
-                  <div class="carousel-item">
+                  <div class="carousel-item hero-slide-2">
                     <div class="d-flex justify-content-between">
                         <div style="width: 50%;">
                             <span class="hero-text-2 text-primary-emphasis d-block">Announcing Our Partnership <br><span class="">With <span style="color: #D77F81;">PressOne Africa.</span></span></span> <br>
@@ -214,7 +271,7 @@
               </div>
         </div>
 
-        <div style="background-color: #F3B1CD;">
+        <div class="ad-slide" style="background-color: #F3B1CD;">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner d-flex justify-content-center text-dark fs-6 p-4">
                   <div class="carousel-item active">
@@ -231,12 +288,12 @@
 
     </main>        
     
-    <div class="d-flex justify-content-between align-items-center mt-5 width">
+    <div class="card-nav d-flex justify-content-between align-items-center mt-5 width">
         <p class="fs-3 text-primary-emphasis product-head">Popular Products</p>
         <a href="#" class="fs-6 fw-semibold link-offset-2 link-underline link-underline-opacity-0" style="color: #D77F81;">See All Products</a>
     </div>
 
-    <div class="d-flex gap-5 flex-wrap width">
+    <div class="products d-flex gap-5 flex-wrap width">
         <div class="card" style="width: 19.1rem; border-radius: 2px;">
             <div class="card-image">
                 <img src="images/two-sided-business-cards-by-printivo.png" class="card-img-top" alt="..." style="width: 100%; height: 220px; border-radius: 1px;">
@@ -401,7 +458,7 @@
         <a href="#" class="fs-6 fw-semibold link-offset-2 link-underline link-underline-opacity-0" style="color: #D77F81;">See All Categories</a>
     </div>
 
-    <div class="div d-flex gap-5 mb-5 width">
+    <div class="categories div d-flex gap-5 mb-5 width">
         <div class="card" style="width: 19.1rem; border-radius: 2px;">
             <img src="images/1473159158_Christmas-card-for-this-wonderful-season.png" class="card-img-top" alt="..." style="width: 100%; height: 220px; border-radius: 1px;">
             <div class="card-body">
@@ -444,15 +501,15 @@
         <p class="customer-text-small primary-text-color mb-5">
             Our print services and solutions are trusted by these brands and over 15,000 other businesses in Nigeria.
         </p>
-        <img src="images/bbc.png" alt="">
+        <img src="images/bbc.png" alt="" class="customer-img">
     </div>
 
     <div class="testimonials py-5 mb-5">
-        <div class="testimonial" style="width: 90%; margin: 0 auto;">
+        <div class="testimonial width">
             <div class="testimonial-heading">
                 <p class="fs-3 primary-text-color">What Customers Sat About Us</p>
             </div>
-            <div class="d-flex gap-4">
+            <div class="testimony-section d-flex gap-4">
                 <div class="testimony d-flex gap-4 bg-white ps-3 pe-3 py-3">
                     <img src="images/twitter-icon.svg" alt="" class="twitter-icon bg-white">
                     <div class="d-flex flex-column">
@@ -500,7 +557,7 @@
         <div class="services-section-heading">
             <p class="primary-text-color fs-2 fw-bold">You can count on us for:</p>
         </div>
-        <div class="d-flex gap-3">
+        <div class="services-section d-flex gap-3">
             <div class="d-flex gap-3 service">
                 <div>
                     <img src="images/clock.svg" alt="">
